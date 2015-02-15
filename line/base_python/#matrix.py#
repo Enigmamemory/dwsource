@@ -7,7 +7,7 @@ that will be referred to as a matrix
 #Time to pretend I know what I'm doing - Alex
 
 
-def new_matrix(rows = 4, cols = 4):
+def new_matrix(rows, cols):
     m = []
     for c in range( cols ):
         m.append( [] )
