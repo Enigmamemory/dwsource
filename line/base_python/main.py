@@ -8,8 +8,16 @@ matrix = []
 
 #octant I
 add_edge(matrix, 0, 0, 0, XRES - 1, YRES - 75, 0 )
+
+#I don't think the rest are octant I
+
+#octant II
 add_edge(matrix, 0, 0, 0, XRES - 75, YRES - 1, 0 )
+
+#octant VIII
 add_edge(matrix, 0, YRES - 1, 0, XRES - 1, 75, 0 )
+
+#octant VII
 add_edge(matrix, 0, YRES - 1, 0, XRES - 75, 0, 0 )
 
 draw_lines( matrix, screen, color )
