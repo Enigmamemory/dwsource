@@ -1,0 +1,18 @@
+from display import *
+from draw import *
+
+screen = new_screen()
+color = [ 0, 255, 0]
+matrix = []
+
+#hat outline
+add_edge(matrix, 0, 24, 0, 12, 10, 0)
+add_edge(matrix, 12, 10, 0, 26, 2, 0)
+add_edge(matrix, 26, 2, 0, 32, 0, 0)
+add_edge(matrix, 32, 0, 0, 39, 2, 0)
+add_edge(matrix, 39, 2, 0, 60, 12, 0)
+add_edge(matrix, 60, 12, 0, 56, 24, 0)
+add_edge(matrix, 56, 24, 0, 32, 24, 0)
+add_edge(matrix, 32, 24, 0, 12, 28, 0)
+add_edge(matrix, 12, 28, 0, 4, 32, 0)
+add_edge(matrix, 4, 32, 0, 0, 24, 0)
