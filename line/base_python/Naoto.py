@@ -158,5 +158,28 @@ add_edge(matrix, 98, 82, 0, 102, 86, 0)
 add_edge(matrix, 102, 86, 0, 104, 84, 0)
 add_edge(matrix, 104, 84, 0, 104, 80, 0)
 
+#shirt collar
+#left
+
+add_edge(matrix, 64, 124, 0, 68, 130, 0)
+add_edge(matrix, 68, 130, 0, 70, 144, 0)
+add_edge(matrix, 70, 144, 0, 88, 152, 0)
+add_edge(matrix, 88, 152, 0, 86, 144, 0)
+add_edge(matrix, 86, 144, 0, 84, 138, 0)
+add_edge(matrix, 84, 138, 0, 64, 124, 0)
+
+#right
+
+add_edge(matrix, 107, 106, 0, 111, 110, 0)
+add_edge(matrix, 111, 110, 0, 108, 122, 0)
+add_edge(matrix, 108, 122, 0, 96, 132, 0)
+add_edge(matrix, 96, 132, 0, 96, 140, 0)
+add_edge(matrix, 96, 140, 0, 99, 146, 0)
+add_edge(matrix, 99, 146, 0, 110, 136, 0)
+add_edge(matrix, 110, 136, 0, 108, 122, 0)
+
+add_edge(matrix, 86, 144, 0, 94, 150, 0)
+add_edge(matrix, 94, 150, 0, 96, 140, 0)
+
 draw_lines( matrix,screen,color )
 display(screen)
