@@ -59,4 +59,7 @@ def display( screen ):
     save_ppm( screen, ppm_name )
     Popen( ['display', ppm_name], stdin=PIPE, stdout = PIPE )
 
-
+def display_new( screen, name ):
+    ppm_name = name
+    save_ppm( screen, ppm_name )
+    Popen( ['display', ppm_name], stdin=PIPE, stdout = PIPE )
